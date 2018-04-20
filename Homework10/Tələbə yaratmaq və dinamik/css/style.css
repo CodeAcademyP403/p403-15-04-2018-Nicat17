@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.container{
+    margin-top: 50px;
+}
+main .input-group,main .btn{
+    margin-top:20px!important;
+}
+.top{
+    
+}
+.table{
+    margin-top: 50px;
+}
+td[class*="klas"]{
+    padding: 20px;
+
+}
+.newtr{
+    width: 100%;
+    height: 100%;
+}
