@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.container{
+    margin-top: 50px;
+}
+main .input-group,main .btn{
+    margin-top:20px!important;
+}
+ 
+.table{
+    margin-top: 50px;
+}
+td[class*="klas"]{
+    padding: 20px;
+
+}
+.alert{
+    margin-top: 20px;
+}
+
+#tbody td{
+    text-align: center;
+    border-right:1px solid gray;
+    border-left:1px solid gray;
+    border-bottom:1px solid gray;
+    width: calc(100%/6);
+}
+#tbody td:hover{
+    background: rgb(203, 203, 214);
+}
+.thead-dark th{
+    text-align: center;
+    width: calc(100%/6);
+}
+#tbody td:nth-child(5),
+#tbody td:nth-child(6){
+    cursor: pointer;
+}
+#tbody td:nth-child(5):hover{
+    background: rgb(143, 202, 143);
+}
+#tbody td:nth-child(6):hover{
+    background: rgb(177, 102, 73);
+}
